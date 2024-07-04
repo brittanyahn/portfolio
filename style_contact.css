@@ -2,10 +2,20 @@
 
 h1  {
     font-family: "Helvetica", sans-serif;
-    font-size: 160%;
+    font-size: 165%;
     padding-top: 40px;
     padding-left: 30px;
     letter-spacing: .001rem;
+}
+
+p {
+    font-family: "HelveticaNeue-Light", sans-serif;
+    padding-left: 300px;
+    padding-top: 49px;
+    letter-spacing: .03rem;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
 }
 
 .sidenav {
@@ -30,14 +40,9 @@ h1  {
     margin-top: 15px; /* spacing between sidebar items/tabs */
 }
 
-.sidenav a:active {
-    color: grey;
-}
-
 .sidenav a:hover {
     color: black;
 }
-
 
 
 /* phone/small screen/media styling */

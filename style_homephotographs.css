@@ -1,0 +1,39 @@
+/* Portfolio CSS */
+
+h1  {
+    font-family: "Helvetica", sans-serif;
+    font-size: 165%;
+    padding-top: 40px;
+    padding-left: 30px;
+    letter-spacing: .001rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 140px;
+    padding-left: 40px;
+}
+
+.sidenav a {
+    font-size: 13px;
+    font-family: "HelveticaNeue-Light", sans-serif;
+    display: block;
+    color: black;
+    text-decoration: none;
+    letter-spacing: .03rem;
+    margin-top: 15px; /* spacing between sidebar items/tabs */
+}
+
+.sidenav a:hover {
+    color: black;
+}
+
+
+
+/* phone/small screen/media styling */
