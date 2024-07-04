@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    
+
 
 <!-- HEADING -->
  <div class="sidenav-header">
@@ -30,11 +30,39 @@
 <!-- IMAGE SLIDESHOW -->
 
 <div class="image-container">
-    <img src="1.jpg" style="width:100%">
-    <img src="2.jpg" style="width:100%">
-    <img src="3.jpg" style="width:100%">
-    <img src="4.jpg" style="width:100%">
+    <!-- Add images to the same class container -->
+    <img class="imgs" src="1.jpg" style="width:100%">
+    <img class="imgs" src="2.jpg" style="width:100%">
+    <img class="imgs" src="3.jpg" style="width:100%">
+    <img class="imgs" src="4.jpg" style="width:100%">
+
+    <!-- Create two buttons -->
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
 </div>
+
+<!-- Javascript to select the images -->
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("imgs");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
 
 </body>
 </html>
