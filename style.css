@@ -1,6 +1,40 @@
 /* Portfolio CSS */
 
-h2  {
-    font-family: Arial, HelveticaNeue-Light, sans-serif;
-    font-size: 150%;
+h1  {
+    font-family: Arial, "HelveticaNeue-Light", sans-serif;
+    font-size: 160%;
+    font-stretch: expanded;
+    padding-top: 25px;
+    padding-left: 30px;
 }
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 125px;
+    padding-left: 40px;
+}
+
+.sidenav a {
+    font-size: 15px;
+    font-family: Arial, "HelveticaNeue-Light", sans-serif;
+    display: block;
+    color: black;
+}
+
+.sidenav a:active {
+    color: grey;
+}
+
+.sidenav a:hover {
+    color: black;
+}
+
+
+
+/* phone/small screen/media styling */
