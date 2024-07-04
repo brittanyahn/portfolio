@@ -47,8 +47,13 @@ h1  {
 /* IMAGES */
 
 .image-container {
-    padding-left: 300px;
-    padding-top: 61px;
+    /* padding-left: 300px; */
+    padding-top: 60px;
+    /* padding-right: 100px; */
+    height: 85vh;
+    position: fixed;
+    left: 37%;
+    right: 50%;
 }
 
 
