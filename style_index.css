@@ -4,36 +4,52 @@ h1  {
     font-family: "Helvetica", sans-serif;
     font-size: 165%;
     padding-top: 40px;
-    padding-left: 30px;
     letter-spacing: .001rem;
 }
 
-.sidenav {
-    height: 100%;
-    width: 160px;
+/* HEADING */
+
+.sidenav-header {
+    padding-left: 38px;
     position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    padding-top: 140px;
-    padding-left: 40px;
 }
 
-.sidenav a {
+.sidenav-header h1 {
+    letter-spacing: .015rem;
+}
+
+
+
+/* SIDEBAR TABS */
+
+.sidenav-tabs {
+    height: 100%;
+    /* width: 200px; */
+    position: fixed;
+    /* z-index: 1; */
+    /* left: 0; */
+    /* overflow-x: hidden; */
+    padding-left: 40px;
+    padding-top: 130px;
+}
+
+.sidenav-tabs a {
     font-size: 13px;
     font-family: "HelveticaNeue-Light", sans-serif;
     display: block;
     color: black;
     text-decoration: none;
-    letter-spacing: .03rem;
+    letter-spacing: .015rem;
     margin-top: 15px; /* spacing between sidebar items/tabs */
 }
 
-.sidenav a:hover {
-    color: black;
-}
 
+/* IMAGES */
+
+.image-container {
+    padding-left: 300px;
+    padding-top: 61px;
+}
 
 
 /* phone/small screen/media styling */
